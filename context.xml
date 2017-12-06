@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/WebApplication5">
+    <Resource
+            name="jdbc/HRDBNew"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="20" maxIdle="10" maxWait="10000"
+            username="nc" password="root"
+            driverClassName="oracle.jdbc.OracleDriver"
+            url="jdbc:oracle:thin:@localhost:1521:XE"
+    />
+</Context>
